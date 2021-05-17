@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Student</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">My Account</string>
+    <string name="menu_gallery">Academics</string>
+    <string name="menu_slideshow">Events</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_edit_profile">Edit_profile</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+
+    <string name="tab_text_1">Over All</string>
+    <string name="tab_text_2">Section</string>
+    <string name="tab_text_3">Indivudial</string>
+    <string-array name="Subject2">
+        <item>Tamil1</item>
+        <item>Tamil2</item>
+        <item>English1</item>
+        <item>English2</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Maths</item>
+        <item>ComputerSciense</item>
+        <item>Biology</item>
+        <item>Accounts</item>
+        <item>Buisness Maths</item>
+    </string-array>
+    <string-array name="Class">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="Sec">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+    </string-array>
+</resources>

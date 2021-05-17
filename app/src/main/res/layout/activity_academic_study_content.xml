@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bacground"
+    tools:context="com.example.student_sides.academic_study_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/doodle"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/cls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unit1"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/andika"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/unit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Unit1 Heading"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika"/>
+
+            <EditText
+                android:id="@+id/unit1_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Subheading count"
+                android:inputType="number"
+                android:textColor="@color/brown"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika"/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/unit1_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unit2"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/andika"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/unit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Unit2 Heading"
+                android:inputType="textPersonName"
+                android:textColor="@color/brown"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika"/>
+            <EditText
+                android:id="@+id/unit2_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Subheading count"
+                android:inputType="number"
+                android:textColor="@color/brown"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika"/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/unit2_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unit3"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/andika"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/unit3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Unit3 Heading"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika"/>
+            <EditText
+                android:id="@+id/unit3_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Subheading count"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika"/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/unit3_recycle"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unit4"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/andika"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/unit4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Unit4 Heading"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika"/>
+            <EditText
+                android:id="@+id/unit4_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Subheading count"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika"/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/unit4_recycle"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unit5"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/andika"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/unit5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Unit5 Heading"
+                android:inputType="textPersonName"
+                android:textColor="@color/brown"
+                android:textColorHint="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika"/>
+            <EditText
+                android:id="@+id/unit5_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Subheading count"
+                android:inputType="number"
+                android:textColor="@color/brown"
+                android:textColorHint="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika"/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/unit5_recycle"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

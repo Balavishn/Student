@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homepage2">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.student_sides.ui.my_account.My_Account__Fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_my_account" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.student_sides.ui.academic.AcademicFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_academic" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.student_sides.ui.event.EventFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_events" />
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.student_sides.ui.leave.LeaveFragment"
+        android:label="Leave Request"
+        tools:layout="@layout/fragment_leave" />
+    <fragment
+        android:id="@+id/help2"
+        android:name="com.example.student_sides.ui.help.Help"
+        android:label="Help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/signout2"
+        android:name="com.example.student_sides.ui.signout.Signout"
+        android:label="MCQ"
+        tools:layout="@layout/fragment_signout" />
+    <fragment
+        android:id="@+id/homepage2"
+        android:name="com.example.student_sides.ui.homepage.Homepage"
+        android:label="Home Page"
+        tools:layout="@layout/homepage_fragment" />
+</navigation>

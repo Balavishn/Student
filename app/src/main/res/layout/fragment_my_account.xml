@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bacground"
+    tools:context="com.example.student_sides.ui.my_account.My_Account__Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/doodle"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="My Profile"
+            android:textSize="20sp" />
+
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/my_account_button"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:src="@drawable/editicon"/>
+        </LinearLayout>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/common_google_signin_btn_icon_light_normal_background"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/my_account_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/my_account_staff_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Staff-Id"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/my_account_class_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Class"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/my_account_staffsubspinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/my_account_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email-Id"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/my_account_contact_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/my_account_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bacground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_margin="5dp"
+        android:gravity="center">
+
+        <Spinner
+            android:layout_weight="1"
+            android:id="@+id/class_next"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:dropDownWidth="match_parent"
+            android:textAlignment="gravity"  />
+
+        <Spinner
+            android:layout_weight="1"
+            android:id="@+id/section"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:dropDownWidth="match_parent"
+            android:textAlignment="gravity"
+            />
+
+        <Spinner
+            android:layout_weight="1"
+            android:id="@+id/subject_select"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:dropDownWidth="match_parent"
+            android:textAlignment="gravity"  />
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bacground"
+    tools:context="com.example.student_sides.SignUpStaffSide">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/doodle"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create a Account...!"
+            android:fontFamily="@font/andika"
+            android:textColor="@color/brown"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/common_google_signin_btn_icon_light_normal_background"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"  />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Upload Your Picture"
+            android:fontFamily="@font/andika"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+</LinearLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@color/black">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/staffname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="@font/andika"
+            android:textColor="@color/black"
+            android:singleLine="true"
+           />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@color/black">
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/staffid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Staff id"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="@font/andika"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <TextView
+            android:id="@+id/studentdob"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Data of Birth"
+            android:fontFamily="@font/andika"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Select class"
+                android:layout_margin="10dp"
+                android:entries="@array/Class"
+                android:id="@+id/Class">
+
+            </Spinner>
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Select Section"
+                android:entries="@array/Sec"
+                android:layout_margin="10dp"
+                android:id="@+id/Section">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@color/black"
+           >
+        <EditText
+            android:id="@+id/staffnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="@font/andika"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@color/black">
+        <EditText
+            android:id="@+id/staffemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email-Id"
+            android:inputType="textPersonName"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="@font/andika"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:passwordToggleEnabled="true"
+            android:textColorHint="@color/black"
+            >
+        <EditText
+            android:id="@+id/staffpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="@font/andika"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:passwordToggleEnabled="true"
+            android:textColorHint="@color/black">
+        <EditText
+            android:id="@+id/staffpass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Re-Password"
+            android:inputType="textPassword"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="@font/andika"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/register"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="Sign Up Here..."
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_bg"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="@font/andika"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bacground"
+    android:gravity="center"
+    tools:context="com.example.student_sides.PdfUpload">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/doodle">
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Upload Video File.."
+            android:textSize="25sp"
+            tools:ignore="MissingConstraints"
+            android:textStyle="bold"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/black"
+            android:fontFamily="@font/andika"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/txtvideoname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Video Name"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/andika"
+        />
+    <Button
+        android:layout_margin="50dp"
+        android:id="@+id/videobtnupload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Upload"
+        android:background="@drawable/btn_bg"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

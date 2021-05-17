@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bacground">#F8DFD5</color>
+    <color name="white">#fafafa</color>
+    <color name="babypink">#E7CEEE</color>
+    <color name="black">#000</color>
+    <color name = "brown">#6C3F45</color>
+
+    <!-- colors for button style -->
+
+    <color name="gradient_start_color">#32426F</color>
+
+
+    <!-- colors for tab and screent text -->
+
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+
+</resources>
